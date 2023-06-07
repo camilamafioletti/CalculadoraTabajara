@@ -24,7 +24,7 @@ namespace CalculadoraTabajara.ConsoleApp
 
                 Console.WriteLine("Digite 3 para Multiplicação\n");
 
-                Console.WriteLine("Diegite 4 para Divisão\n");
+                Console.WriteLine("Digite 4 para Divisão\n");
 
                 Console.WriteLine("Digite 5 para Visualizar as operações\n");
 
