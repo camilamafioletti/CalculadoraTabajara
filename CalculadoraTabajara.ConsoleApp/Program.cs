@@ -26,8 +26,6 @@ namespace CalculadoraTabajara.ConsoleApp
 
                 Console.WriteLine("Digite 4 para Divisão\n");
 
-
-
                 Console.WriteLine("Digite 5 para Visualizar as operações");
 
                 Console.WriteLine("Digite S para sair");
@@ -57,6 +55,7 @@ namespace CalculadoraTabajara.ConsoleApp
 
                     case "5":
                         {
+                            Console.WriteLine("Historico: \n");
                             Console.WriteLine("Visualizando operações realizadas: \n");
 
                             foreach (string op in operacoes)
