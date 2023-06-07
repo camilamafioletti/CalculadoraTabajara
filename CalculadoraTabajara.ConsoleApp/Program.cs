@@ -1,4 +1,6 @@
-﻿namespace CalculadoraTabajara.ConsoleApp
+﻿using System.Security.Permissions;
+
+namespace CalculadoraTabajara.ConsoleApp
 {
     internal class Program
     {
@@ -21,6 +23,8 @@
                 Console.WriteLine("Digite 2 para Subtração\n");
 
                 Console.WriteLine("Digite 3 para Multiplicação\n");
+
+                Console.WriteLine("Diegite 4 para Divisão\n");
 
 
 
@@ -47,6 +51,9 @@
                     case "2": operacao = "Subtração"; break;
 
                     case "3": operacao = "Multiplicação"; break;
+
+                    case "4": operacao = "Divisão"; break;
+
 
                     case "5":
                         {
@@ -84,6 +91,8 @@
                     case "2": resultado = primeiroNumero - segundoNumero; break;
 
                     case "3": resultado = primeiroNumero * segundoNumero; break;
+                        
+                    case "4": resultado = primeiroNumero / segundoNumero; break;
 
                     default:
                         break;
