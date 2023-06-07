@@ -55,6 +55,8 @@ namespace CalculadoraTabajara.ConsoleApp
 
                     case "5":
                         {
+                            Console.WriteLine("Historico de operações");
+
                             Console.WriteLine("Visualizando operações realizadas: \n");
 
                             foreach (string op in operacoes)
