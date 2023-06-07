@@ -1,4 +1,6 @@
-﻿namespace CalculadoraTabajara.ConsoleApp
+﻿using System.Security.Permissions;
+
+namespace CalculadoraTabajara.ConsoleApp
 {
     internal class Program
     {
@@ -10,6 +12,8 @@
 
             while (true) 
             {
+                Console.Clear();
+
                 Console.WriteLine("Calculadora Tajabara 1.0\n");
 
                 Console.WriteLine("Tela Principal\n");
@@ -17,6 +21,10 @@
                 Console.WriteLine("Digite 1 para Adição");
 
                 Console.WriteLine("Digite 2 para Subtração");
+
+                Console.WriteLine("Digite 3 para Multiplicação\n");
+
+                Console.WriteLine("Digite 4 para Divisão\n");
 
 
 
@@ -41,6 +49,11 @@
                     case "1": operacao = "Adição"; break;
 
                     case "2": operacao = "Subtração"; break;
+
+                    case "3": operacao = "Multiplicação"; break;
+
+                    case "4": operacao = "Divisão"; break;
+
 
                     case "5":
                         {
@@ -77,7 +90,9 @@
 
                     case "2": resultado = primeiroNumero - segundoNumero; break;
 
-
+                    case "3": resultado = primeiroNumero * segundoNumero; break;
+                        
+                    case "4": resultado = primeiroNumero / segundoNumero; break;
 
                     default:
                         break;
@@ -96,8 +111,9 @@
 
                     case "2": simbolo = "-"; break;
 
+                    case "3": simbolo = "*"; break;
 
-
+                    case "4": simbolo = "/"; break;
 
                     default:
                         break;
