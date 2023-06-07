@@ -14,15 +14,15 @@
 
                 Console.WriteLine("Tela Principal\n");
 
-                Console.WriteLine("Digite 1 para Adição\n");
+                Console.WriteLine("Digite 1 para Adição");
 
-                Console.WriteLine("Digite 2 para Subtração\n");
+                Console.WriteLine("Digite 2 para Subtração");
 
 
 
-                Console.WriteLine("Digite 5 para Visualizar as operações\n");
+                Console.WriteLine("Digite 5 para Visualizar as operações");
 
-                Console.WriteLine("Digite S para sair\n");
+                Console.WriteLine("Digite S para sair");
 
                 Console.WriteLine("Opção: ");
                 opcao = Console.ReadLine();
